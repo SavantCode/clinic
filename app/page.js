@@ -8,6 +8,8 @@ import Testimonials from '@/components/Testimonials'
 import ReadyToTransform from '@/components/ReadyToTransform'
 import BookAppointment from '@/components/BookAppointment'
 
+import Schedule from '@/components/Schedule'
+
 
 export default function Home() {
   return (
@@ -22,6 +24,11 @@ export default function Home() {
         {/* About Section */}
         <section id="about">
           <About />
+        </section>
+
+        {/* Schedule Section */}
+        <section id="schedule">
+          <Schedule />
         </section>
 
         {/* Services */}
@@ -45,7 +52,7 @@ export default function Home() {
         </section>
 
       </main>
-      
+
 
       {/* Book Appointment */}
       <section id="contact">
